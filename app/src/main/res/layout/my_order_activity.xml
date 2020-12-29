@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/layut_top"
+
+        android:layout_height="70sp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/layout_vendor_click"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10sp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_arrow_back_24dp"
+                android:layout_marginRight="10sp"
+                android:id="@+id/img_back"
+                android:tint="@color/text_gray"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="My Order"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layut_top"
+        android:id="@+id/layout_tab"
+        android:layout_height="@dimen/margin50"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_order"
+            android:layout_weight="1">
+
+
+
+
+                <TextView
+                    android:id="@+id/imageView222"
+                    android:layout_width="match_parent"
+                    android:layout_centerVertical="true"
+                    android:text="Orders"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:src="@drawable/ic_refund" />
+
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:textAlignment="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/colorAccent"
+                    android:text="All Refunded"
+                    android:id="@+id/view_1"
+                    android:layout_marginLeft="10sp"
+                    android:textColor="@color/msg_fail" />
+
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:id="@+id/layout_order_refunded"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+
+
+            <TextView
+                android:id="@+id/imageView2222"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:text="Refunded Order"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:src="@drawable/ic_refund" />
+
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorAccent"
+                android:text="Refunded"
+                android:id="@+id/view_2"
+                android:visibility="gone"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/msg_fail" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_tab"
+        android:layout_above="@+id/animatedBottomBar"/>
+
+
+</RelativeLayout>

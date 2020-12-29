@@ -1,0 +1,3 @@
+include ':smoothviewpager'
+include ':app'
+rootProject.name = "nybizz"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nybizz.iml" filepath="$PROJECT_DIR$/.idea/modules/nybizz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/nybizz.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/nybizz.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smoothviewpager/nybizz.smoothviewpager.iml" filepath="$PROJECT_DIR$/.idea/modules/smoothviewpager/nybizz.smoothviewpager.iml" />
+    </modules>
+  </component>
+</project>

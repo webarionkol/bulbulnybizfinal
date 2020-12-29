@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layut_top"
+
+        android:layout_height="50sp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_arrow_back_24dp"
+            android:layout_marginRight="10sp"
+            android:id="@+id/img_back"
+            android:layout_centerVertical="true"
+            android:padding="2sp"
+            android:tint="@color/text_gray"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:text="Settings"/>
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_above="@+id/bottom_sheet"
+        android:layout_below="@+id/layut_top"
+        android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:id="@+id/layout_data"
+                    android:background="@drawable/gradiant"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+
+                        android:textSize="18sp"
+                        android:tint="@color/white"
+                        android:src="@drawable/ic_settings"
+                        android:text="What is the issue?"/>
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:tint="@color/white"
+                        android:textColor="@color/white"
+                        android:id="@+id/txt_heading"
+                        android:layout_marginLeft="20sp"
+                        android:text="about us "/>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin10"
+                android:layout_marginRight="10sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:text="Heading 1"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin10"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="@dimen/margin30"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin10"
+                android:layout_marginRight="10sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:text="Heading 2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin10"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="@dimen/margin30"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20sp"
+                android:layout_height="@dimen/margin200"
+                android:src="@drawable/img03"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_data"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

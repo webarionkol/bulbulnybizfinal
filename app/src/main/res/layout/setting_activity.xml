@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layut_top"
+        android:background="@color/white"
+        android:layout_height="50sp">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_arrow_back_24dp"
+            android:layout_marginRight="10sp"
+            android:id="@+id/img_back"
+            android:layout_centerVertical="true"
+            android:tint="@color/text_gray"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:text="Setting"/>
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="@dimen/margin50"
+            android:layout_height="@dimen/margin30"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/toggle_selector"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_languages"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Language"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+
+            android:layout_width="@dimen/margin30"
+            android:layout_height="@dimen/margin30"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/ic_next_arrow"
+            android:visibility="invisible"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_about"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="@color/text_gray_data"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_contact_us"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_privacy_policy"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_terms_condtion"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Condition"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_refund"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return, Refund and Cancellation Policy"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/shipping_policy"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shipping Policy"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_payment_policy"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Policy"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_process_and_logistics"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Process flow to purchase the product"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:id="@+id/layout_logout"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_gray_data"
+        />
+</LinearLayout>
